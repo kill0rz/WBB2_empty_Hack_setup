@@ -1,0 +1,34 @@
+# Languagepack-Export: Deutsch
+# Languagecode: de
+# Date: 01.01.2017 11:12:47
+# wBB Version: 2.3
+
+
+
+[acp_group]
+
+<text:LANG_ACP_GROUP_VARGROUP_ADMIN_HACK>Adminoptionen HACK</LANG_ACP_GROUP_VARGROUP_ADMIN_HACK:text>
+
+[acp_HACK]
+
+<text:LANG_ACP_HACK_TPL_INFO_1>HACK Informationen</LANG_ACP_HACK_TPL_INFO_1:text>
+<text:LANG_ACP_HACK_TPL_INFO_2>HACK Version</LANG_ACP_HACK_TPL_INFO_2:text>
+<text:LANG_ACP_HACK_TPL_INFO_3>v1</LANG_ACP_HACK_TPL_INFO_3:text>
+<text:LANG_ACP_HACK_TPL_INFO_4>Idee &amp; Programmierung</LANG_ACP_HACK_TPL_INFO_4:text>
+<text:LANG_ACP_HACK_TPL_INFO_5>kill0rz</LANG_ACP_HACK_TPL_INFO_5:text>
+<text:LANG_ACP_HACK_TPL_INFO_6>Template &amp; Anpassung</LANG_ACP_HACK_TPL_INFO_6:text>
+<text:LANG_ACP_HACK_TPL_INFO_7>Copyright</LANG_ACP_HACK_TPL_INFO_7:text>
+<text:LANG_ACP_HACK_TPL_INFO_8>liegt bei kill0rz (<a href="http://kill0rz.com/" target="_blank">kill0rz.com</a>)</LANG_ACP_HACK_TPL_INFO_8:text>
+<text:LANG_ACP_HACK_TPL_INFO_9>Support</LANG_ACP_HACK_TPL_INFO_9:text>
+<text:LANG_ACP_HACK_TPL_INFO_10>nur auf <a href="http://www.v-gn.de/wbb" target="_blank">www.v-gn.de</a> im entsprechenden Supportthread</LANG_ACP_HACK_TPL_INFO_10:text>
+<text:LANG_ACP_HACK_TPL_INFO_11><strong>KEIN</strong> Support per PN, Email, ICQ, MSN, AIM, Skype o.&auml;.</LANG_ACP_HACK_TPL_INFO_11:text>
+
+
+[HACK]
+
+<text:LANG_HACK_TITLE>HACK</LANG_HACK_TITLE:text>
+
+
+[wiw]
+
+<text:LANG_WIW_FILE_HACK><a href="HACK.php$SID_ARG_1ST" target="_blank">HACK</a></LANG_WIW_FILE_HACK:text>

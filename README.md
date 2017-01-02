@@ -1,1 +1,1 @@
-# WBB2_empty_Hack_setup
+This a just an empty setup for developers of WBB2 hacks.

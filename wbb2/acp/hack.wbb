@@ -1,0 +1,56 @@
+<wBBgroupvariablegroup>
+	<name>USER_HACK</name>
+	<title>HACK</title>
+	<parent>USER</parent>
+	<securitylevel>1</securitylevel>
+	<acpmode>2</acpmode>
+</wBBgroupvariablegroup>
+
+<wBBgroupvariablegroup>
+	<name>ADMIN_HACK</name>
+	<title>Adminoptionen HACK</title>
+	<parent>ADMIN</parent>
+	<securitylevel>2</securitylevel>
+	<acpmode>2</acpmode>
+</wBBgroupvariablegroup>
+
+<wBBgroupvariable>
+	<name>a_can_HACK_edit</name>
+	<type>truefalse</type>
+	<defaultvalue>0</defaultvalue>
+	<title>HACK</title>
+	<desc>Benutzer dieser Gruppe k&ouml;nnen die Optionen des HACKs bearbeiten?</desc>
+	<group>ADMIN_HACK</group>
+	<acpmode>2</acpmode>
+</wBBgroupvariable>
+
+<wBBacpmenuitemgroup>
+	<name>HACK</name>
+	<condition></condition>
+	<conditiontype>OR</conditiontype>
+	<acpmode>2</acpmode>
+</wBBacpmenuitemgroup>
+
+<wBBacpmenuitem>
+	<name>HACK_INDEX</name>
+	<title>HACK</title>
+	<group>HACK</group>
+	<link>HACK_admin.php?action=info</link>
+	<linkformat>
+		<b>%s</b>
+	</linkformat>
+	<condition>a_can_HACK_edit</condition>
+	<conditiontype>OR</conditiontype>
+	<acpmode>2</acpmode>
+</wBBacpmenuitem>
+
+<wBBacpmenuitem>
+	<name>HACK_OPTIONS</name>
+	<title>Optionen</title>
+	<group>HACK</group>
+	<link>HACK_admin.php?action=options</link>
+	<linkformat></linkformat>
+	<condition>a_can_HACK_edit</condition>
+	<conditiontype>OR</conditiontype>
+	<acpmode>2</acpmode>
+</wBBacpmenuitem>
